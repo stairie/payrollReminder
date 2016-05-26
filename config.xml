@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Hello World</name>
+    <description>
+    Payroll reminder for submitting hours.
+  </description>
+    <author email="stairie43@hotmail.comcom" href="http://adejonge.ca">
+    Alistair DeJonge
+  </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <plugin name="cordova-plugin-device-motion" source="npm" spec="~1.2.0" />
+    <plugin name="cordova-plugin-device-orientation" source="npm" spec="~1.0.2" />
+    <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
+    <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+    <plugin name="com.phonegap.plugins.pushplugin" source="pgb" />
+    <icon src="icon.png" />
+    <platform name="android">
+        <icon density="ldpi" src="www/res/icon/android/mipmap-ldpi/ic_launcher.png" />
+        <icon density="mdpi" src="www/res/icon/android/mipmap-mdpi/ic_launcher.png" />
+        <icon density="hdpi" src="www/res/icon/android/mipmap-hdpi/ic_launcher.png" />
+        <icon density="xhdpi" src="www/res/icon/android/mipmap-xhdpi/ic_launcher.png" />
+        <icon density="xxhdpi" src="www/res/icon/android/mipmap-xxhdpi/ic_launcher.png" />
+        <icon density="xxxhdpi" src="www/res/icon/android/mipmap-xxxhdpi/ic_launcher.png" />
+    </platform>
+    <engine name="android" spec="~5.1.1" />
+</widget>
