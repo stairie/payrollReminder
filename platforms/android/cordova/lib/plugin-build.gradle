@@ -43,6 +43,7 @@ buildscript {
 }
 
 apply plugin: 'android-library'
+apply plugin: 'com.google.gms.google-services'
 
 dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
